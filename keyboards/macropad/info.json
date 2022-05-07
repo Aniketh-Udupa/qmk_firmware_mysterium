@@ -1,0 +1,10 @@
+{
+    "keyboard_name": "macropad",
+    "url": "",
+    "maintainer": "anikodi",
+    "layouts": {
+      "LAYOUT_macro2x3": {
+        "layout": [{"x":0, "y":0}, {"x":1, "y":0}, {"x":2, "y":0}, {"x":0, "y":1}, {"x":1, "y":1}, {"x":2, "y":1}]
+      }
+    }
+  }
