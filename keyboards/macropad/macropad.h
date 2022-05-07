@@ -3,7 +3,7 @@
 
 #include "quantum.h"
 
-#define KEYMAP( \
+#define LAYOUT_marcro2x3( \
 	K00, K01, K02, \
 	K10, K11, K12  \
 ) { \
