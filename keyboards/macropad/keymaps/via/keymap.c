@@ -1,67 +1,67 @@
-#include QMK_KEYBOARD_H 
+#include QMK_KEYBOARD_H
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-	KEYMAP(
+	[0]=macropad2x3(
 		KC_SPC, KC_SPC, KC_SPC, 
 		KC_SPC, KC_SPC, KC_SPC),
 
-	KEYMAP(
+	[1]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[2]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[3]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[4]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[5]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[6]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[7]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[8]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[9]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[10]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[11]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[12]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[13]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[14]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS),
 
-	KEYMAP(
+	[15]=macropad2x3(
 		KC_TRNS, KC_TRNS, KC_TRNS, 
 		KC_TRNS, KC_TRNS, KC_TRNS)
 
