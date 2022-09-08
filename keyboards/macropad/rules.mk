@@ -55,3 +55,5 @@ BACKLIGHT_ENABLE ?= no  # Enable keyboard backlight functionality
 AUDIO_ENABLE ?= no
 RGBLIGHT_ENABLE ?= no
 VIA_ENABLE = yes
+OLED_DRIVER_ENABLE = yes
+WPM_ENABLE = yes
