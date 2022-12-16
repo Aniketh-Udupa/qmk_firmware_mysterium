@@ -55,3 +55,4 @@ BACKLIGHT_ENABLE ?= no  # Enable keyboard backlight functionality
 AUDIO_ENABLE ?= no
 RGBLIGHT_ENABLE ?= no
 VIA_ENABLE = yes
+oled_ENABLE = yes
