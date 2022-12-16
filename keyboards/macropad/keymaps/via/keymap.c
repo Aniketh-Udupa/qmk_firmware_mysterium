@@ -1,5 +1,5 @@
 #include QMK_KEYBOARD_H
-#ifdef OLED_ENABLE
+//#ifdef OLED_ENABLE
 
 // bool oled_task_user(){
 //     oled_set_cursor(0,1);
