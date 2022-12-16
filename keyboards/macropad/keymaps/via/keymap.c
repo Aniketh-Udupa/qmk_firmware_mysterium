@@ -126,7 +126,7 @@ void led_set_user(uint8_t usb_led) {
 }
 #ifdef OLED_ENABLE
 
-bool oled_init_user() {
+bool oled_task_user(void) {
     oled_set_cursor(0, 1);
     
     oled_write("Hello there!", false);
