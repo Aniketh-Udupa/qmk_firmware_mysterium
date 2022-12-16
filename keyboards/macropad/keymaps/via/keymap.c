@@ -1,14 +1,5 @@
 #include QMK_KEYBOARD_H
-#ifdef OLED_ENABLE
 
-bool oled_task_user(){
-    oled_set_cursor(0,1);
-    
-    oled_write("Hello there!", false);
-    return false;
-}
-
-#endif
 
 
 
@@ -133,3 +124,14 @@ void led_set_user(uint8_t usb_led) {
 	}
 
 }
+#ifdef OLED_ENABLE
+
+bool oled_task_user() {
+    oled_set_cursor(0, 1);
+    
+    oled_write("Hello there!", false);
+    
+    return false;
+}
+
+#endif
