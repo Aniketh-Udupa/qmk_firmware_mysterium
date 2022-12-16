@@ -56,3 +56,4 @@ AUDIO_ENABLE ?= no
 RGBLIGHT_ENABLE ?= no
 VIA_ENABLE = yes
 oled_ENABLE = yes
+WPM_ENABLE = yes
