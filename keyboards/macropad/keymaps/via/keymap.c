@@ -123,7 +123,7 @@ void led_set_user(uint8_t usb_led) {
 	}
 
 }
-#ifdef OLED_DRIVER_ENABLE
+#ifdef OLED_ENABLE
 // WPM-responsive animation stuff here
 #    define IDLE_FRAMES 5
 #    define IDLE_SPEED 20  // below this wpm value your animation will idle
