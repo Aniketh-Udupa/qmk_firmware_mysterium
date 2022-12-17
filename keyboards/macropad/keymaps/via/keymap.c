@@ -222,7 +222,7 @@ static void render_anim(void) {
 }
 
 // Used to draw on to the oled screen
-void oled_task_user(void) {
+oled_task_user(void) {
     render_anim();  // renders pixelart
 
     oled_set_cursor(0, 0);                            // sets cursor to (row, column) using charactar spacing (5 rows on 128x32 screen, anything more will overflow back to the top)
