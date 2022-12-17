@@ -123,7 +123,14 @@ void led_set_user(uint8_t usb_led) {
 	}
 
 }
-#ifdef OLED_ENABLE
+// OLED STUFF STARTS HERE
+// based on https://github.com/qmk/qmk_firmware/blob/master/keyboards/kyria/keymaps/j-inc/keymap.c
+
+// In your rules.mk make sure you have:
+// OLED_DRIVER_ENABLE = yes
+// WPM_ENABLE = yes
+
+#ifdef OLED_DRIVER_ENABLE
 // WPM-responsive animation stuff here
 #    define IDLE_FRAMES 5
 #    define IDLE_SPEED 20  // below this wpm value your animation will idle
@@ -222,7 +229,7 @@ static void render_anim(void) {
 }
 
 // Used to draw on to the oled screen
-oled_task_user(void) {
+void oled_task_user(void) {
     render_anim();  // renders pixelart
 
     oled_set_cursor(0, 0);                            // sets cursor to (row, column) using charactar spacing (5 rows on 128x32 screen, anything more will overflow back to the top)
