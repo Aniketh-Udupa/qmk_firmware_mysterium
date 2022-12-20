@@ -125,7 +125,7 @@ void led_set_user(uint8_t usb_led) {
 }
 #ifdef OLED_ENABLE
 
-}
+
 
 bool oled_task_user(void) {
     static const char image [] PROGMEM = {// 'cato', 32x128px
