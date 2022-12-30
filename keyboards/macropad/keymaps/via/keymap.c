@@ -135,16 +135,16 @@ bool oled_task_user(void) {
     
     switch (get_highest_layer(layer_state)) {
         case _DEFAULT :
-            oled_write_P(const char 'Main', bool false);
+            oled_write(const char 'Main', bool false);
             break;
         case _CODE :
-            oled_write_P(const char 'Code', bool false);
+            oled_write(const char 'Code', bool false);
             break;
         case _NUM :
-            oled_write_P(const char 'Number', bool false);
+            oled_write(const char 'Number', bool false);
             break;
         case _FUNC :
-            oled_write_P(const char 'Function', bool false);
+            oled_write(const char 'Function', bool false);
             break;
     }
     
