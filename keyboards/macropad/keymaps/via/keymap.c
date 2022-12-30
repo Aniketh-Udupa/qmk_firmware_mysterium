@@ -4,7 +4,7 @@ enum layer_names {
     _CODE,
     _NUM, 
     _FUNC
-    };
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -135,16 +135,16 @@ bool oled_task_user(void) {
     
     switch (get_highest_layer(layer_state)) {
         case _DEFAULT :
-            oled_write('Main layer', false);
+            oled_write('Main-layer', false);
             break;
         case _CODE :
-            oled_write('Code layer', false);
+            oled_write('Code-layer', false);
             break;
         case _NUM :
-            oled_write('Number layer', false);
+            oled_write('Number-layer', false);
             break;
         case _FUNC :
-            oled_write('Function layer', false);
+            oled_write('Function-layer', false);
             break;
     }
     
