@@ -154,7 +154,6 @@ void oled_render_layer_state(void) {
             oled_write_ln_P(PSTR("Adjust"), false);
             break;
     }
-}
 
   return true;
 }
