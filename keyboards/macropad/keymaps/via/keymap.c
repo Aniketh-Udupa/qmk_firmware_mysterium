@@ -127,7 +127,7 @@ void led_set_user(uint8_t usb_led) {
 
 }
 //OLED stuff here
-#ifdef OLED_ENABLE
+#ifdef OLED_DRIVER_ENABLE
 
 
 bool oled_task_user(void) {
@@ -135,16 +135,16 @@ bool oled_task_user(void) {
     
     switch (get_highest_layer(layer_state)) {
         case _DEFAULT :
-            oled_write(const char 'Main', bool false);
+            oled_write('Main',  false);
             break;
         case _CODE :
-            oled_write(const char 'Code', bool false);
+            oled_write('Code',  false);
             break;
         case _NUM :
-            oled_write(const char 'Number', bool false);
+            oled_write('Number',  false);
             break;
         case _FUNC :
-            oled_write(const char 'Function', bool false);
+            oled_write('Function',  false);
             break;
     }
     
